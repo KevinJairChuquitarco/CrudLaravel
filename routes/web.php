@@ -9,6 +9,10 @@ Route::get('/', function () {
 });
 
 
+Route::get('/CrearUsuario', function () {
+    return view('crear-usuario');
+});
+
 // Route::get('/usuario', function () {
 //     return view('usuario');
 // });
